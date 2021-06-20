@@ -14,8 +14,8 @@ Deployed Website Link:
 Once deployed, the application appears as the image attached below on a traditional desktop.
 
 <img
-src = ""
-alt = "" />
+src = "./Assets/passwordgenerator.png"
+alt = " A screenshot of the Password Generator page is shown " />
 
 ## Credits
 
