@@ -9,7 +9,14 @@ var special = ['~', '`', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', 
 var characters = [];
 var newPassword = '';
 
+function generatePassword() {
+  var passwordLength = prompt('How long would you like your password to be? Enter in a value between 8-128 characters.');
+  var upper = confirm('Would you like to include an uppercase character?');
+  var lower = confirm('Would you like to include a lowercase character?');
+  var numb = confirm('Would you like to include a number?');
+  var spec = confirm('Would you like to include a special character?');
 
+}
 
 // Write password to the #password input
 function writePassword() {
