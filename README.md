@@ -5,9 +5,9 @@ The purpose of this project was to create a working random password generator th
 
 ## Links
 
-Depository Link: 
+Depository Link: https://github.com/zavaletaosv/Password-Generator
 
-Deployed Website Link: 
+Deployed Website Link: https://zavaletaosv.github.io/Password-Generator/
 
 ## Usage
 
