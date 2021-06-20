@@ -1,4 +1,4 @@
-// Variables: Used to Create a Unique Password
+// Variables: Arrays Used to Create a Unique Password
 
 var generateBtn = document.querySelector("#generate");
 var pageLoad = alert('Hello! Click "Generate Password" to begin');
@@ -23,7 +23,26 @@ function generatePassword() {
   if ((passwordLength < 8) && (passwordLength > 128)) {
     alert('Password must be between 8-128 characters.')
     return generatePassword();
+  };
+
+// Concat: Used to Merge Two or More Arrays 
+
+if (uppercase) {
+    characters = characters.concat(uppercase);
+  };
+
+  if (lowercase) {
+    characters = characters.concat(lowercase);
+  };
+
+  if (number) {
+    characters = characters.concat(number);
+  };
+
+  if (special) {
+    characters = characters.concat(special);
   }
+
 
 
 }
