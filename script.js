@@ -41,7 +41,7 @@ if (uppercase) {
 
   if (special) {
     characters = characters.concat(special);
-  }
+  };
 
 // Used to Create Password by Taking Concat Items and Multiplying by the User's Desired PW Length
 
@@ -50,7 +50,7 @@ if (uppercase) {
     console.log(newPassword);
   }
 
-
+  return newPassword;
 
 }
 
