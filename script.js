@@ -9,6 +9,8 @@ var special = ['~', '`', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', 
 var characters = [];
 var newPassword = '';
 
+// Password Confirmation for Different Characters
+
 function generatePassword() {
   var passwordLength = prompt('How long would you like your password to be? Enter in a value between 8-128 characters.');
   var upper = confirm('Would you like to include an uppercase character?');
@@ -16,7 +18,16 @@ function generatePassword() {
   var numb = confirm('Would you like to include a number?');
   var spec = confirm('Would you like to include a special character?');
 
+// Condition: Used to Set Password Length Interval
+
+  if ((passwordLength < 8) && (passwordLength > 128)) {
+    alert('Password must be between 8-128 characters.')
+    return generatePassword();
+  }
+
+
 }
+
 
 // Write password to the #password input
 function writePassword() {
