@@ -43,6 +43,13 @@ if (uppercase) {
     characters = characters.concat(special);
   }
 
+// Used to Create Password by Taking Concat Items and Multiplying by the User's Desired PW Length
+
+  for (var i = 0; i < passwordLength; i++) {
+    newPassword += characters[Math.floor(Math.random() * characters.length)];
+    console.log(newPassword);
+  }
+
 
 
 }
